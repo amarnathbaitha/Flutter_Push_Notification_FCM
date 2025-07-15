@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "510695529086",
+    "project_id": "fcm-notification-66061",
+    "storage_bucket": "fcm-notification-66061.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:510695529086:android:10fe8b1f8ecdaff6be162f",
+        "android_client_info": {
+          "package_name": "com.amar.flutter_push_notifications"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkrayp5XfF-aFxKG-FU1yCaJyt__Zy2vM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
