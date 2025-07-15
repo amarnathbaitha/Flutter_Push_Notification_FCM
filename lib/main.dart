@@ -28,6 +28,13 @@ class _MyAppState extends State<MyApp> {
   void initState() {
    messaging = FirebaseMessaging.instance;
    messaging.requestPermission();
+
+   // through fcm token
+   messaging.getToken().then((token){
+      print("token $token");
+     });
+   // To subscribe channel
+   messaging.subscribeToTopic('amar_test');
     super.initState();
   }
   // This widget is the root of your application.

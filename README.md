@@ -24,4 +24,11 @@ samples, guidance on mobile development, and a full API reference.
 7. flutter pub add firebase_core and this flutter pub add firebase_messaging
 8. For sending notification.
 9. go to dashboard, left side click on Run->Messaging->Create Campaign and select Firebase notification message.
-10. 
+
+This is the example of the background push notification means app should be in the background by default for foreground push notification we will check later
+
+
+There are three way to send the notification
+1. By simple way(create campaign and send the notification))
+2. By creating the channel and send the notification
+3. through fcm token.
