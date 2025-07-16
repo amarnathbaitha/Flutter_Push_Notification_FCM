@@ -1,20 +1,5 @@
 # flutter_push_notifications
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
 1. Create an project on fcm console.
 2. https://console.firebase.google.com/
 3. copy the package from android/app/build.gradle file.
@@ -32,3 +17,6 @@ There are three way to send the notification
 1. By simple way(create campaign and send the notification))
 2. By creating the channel and send the notification
 3. through fcm token.
+
+For foregroud push notification please visit this youtube video
+https://www.youtube.com/watch?v=vR2q7at97Cs&t=873s
